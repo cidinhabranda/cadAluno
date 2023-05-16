@@ -5,10 +5,10 @@ todos_dados = []
 def ver_dados():
     return todos_dados
     # print(todos_dados)
-# funcao adicionar item no arquivo
+# funcao adicionar item na lista
 def adicionar_dados(i):
     todos_dados.append(i)
-# funcao remover item no arquivo
+# funcao remover da lista
 def remover_dados(tel):
     valor_procurado = tel
     # iterando sobre cada elemento da lista
