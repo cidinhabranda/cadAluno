@@ -9,8 +9,8 @@ def ver_dados():
 def adicionar_dados(i):
     todos_dados.append(i)
 # funcao remover da lista
-def remover_dados(tel):
-    valor_procurado = tel
+def remover_dados(ra):
+    valor_procurado = ra
     # iterando sobre cada elemento da lista
     for elemento in todos_dados:
         # verificando se o valor está presente no elemento
