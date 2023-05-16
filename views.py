@@ -34,7 +34,7 @@ def atualizar_dados(i):
             elemento[2] = i[3]
             elemento[3] = i[4]
 
-# funcao procurar dados
+# funcao procurar na lista
 def procurar_dados(i):
     elemento_procurado = i
     resultados = []
